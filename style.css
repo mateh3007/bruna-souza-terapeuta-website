@@ -56,7 +56,7 @@ body {
 
 /* Banner Styles */
 .banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.95), rgb(0, 0, 0)), url('img/banner.jpg') no-repeat center center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.021)), url('img/banner.jpg') no-repeat center center/cover;
   color: white;
   height: 80vh;
   display: flex;
@@ -677,8 +677,8 @@ footer {
         transition-delay: 0.2s;
     }
 
-    .menu-toggle {
-        display: inline-block;
+    .banner{
+      background-image: url('img/banner-mobile.jpg') no-repeat center center/cover;
     }
 
   #about-me .container {
